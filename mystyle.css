@@ -1,0 +1,21 @@
+/*
+ * css for jayresearch.github.in
+ *
+ * */
+
+body{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 85px;
+  margin-left: 85px;  
+  background-color: hsla(14, 100%, 50%, 0.2);
+  font-family: arial, sans-serif;
+  //font-size: 14px;
+}
+
+h3{ 
+
+}
+
+
+
