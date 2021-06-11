@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.myDiv {
+  border: 1px outset red;
+  background-color: lightblue;
+  text-align: left;
+}
+
+.vls{
+   border-left:1px solid blue;
+   height: 50px;
+}
+.vlh{
+   border-left:1px solid blue;
+   height: 150px;
+}
+</style>
+
 <title> jayresearch </title>
 <link rel="stylesheet"
 href = "mystyle.css"
@@ -22,13 +39,20 @@ target="_blank="> JRF opening </a><br>
 
 <h3 > Research</h3>
 
-<p> 
-Our research focuses on Test, Verification, Reliability, and Post-silicon Debug of SoC (System on Chip) designs. We
-investigate several problems such as looking at the edge devices for extreme energy efificient testing,
-developing new ATPG algorithms for the new generation design such as ML accelerators and high performance
-processor. We look at the problems of Verification and Debug, the traditional challenge of Verification
-Time and formal methods for low power design verification are some of our problems of interest. Broadly,
-the problems that we solve falls in the domain of Dependable and Energy-aware Computing. <p>
+<p>
+Our research focuses on Reliable and Energy-aware Computing Hardware. The concept of reliability requires a
+hardware system to be free from any defect that may leads to erroneous system behavior. And, energy-aware
+principle requires the hardware system to be aware of efficient use of energy as and when needed without
+compromising on accuracy and performance.  
+
+Our research focuses on Design, Test and Verification of intelligent computing hardware. For the next
+generation intelligent hardware the energy efficiency and reliability would be crucial and what we need is
+to explore a newer thought and approach. The intelligent hardware system would be consisting of redundancy
+and massive parallelism inherently and this would turn the thought process differently when we address the
+issues of reliability, energy efficiency and accuracy. The intelligent hardware system would span across the
+different application domains starting from edge devices to high performance processor. Our interest lies in
+investigating the AI accelerators in edge nodes in IoT system, in hand-held device and in personal computing
+machine.  
 
 <p>
 Future perspective: the never-ending human endeavor has thought to make the machines as intelligent as the
@@ -44,17 +68,51 @@ for the next gen computing hardware.
 <p>
 <h4> Research Area:</h4>
 
+<div class="myDiv">
+<table align="center">
+<tr>
+
+ <td> 
+ <h2> Dependable Computing (Hardware) </h2>
+ </td>
+<td>
+<div class="vls"></div>
+</td> 
+ <td>
+ <h2> Intelligent Computing (Hardware) </h2>
+ </td>
+</tr> 
+
+<tr>
+<td>
 Power-aware Test of VLSI SoC <br>
 Joint-scan DfT (Design for Test) Architecture <br>
-Testing of IoT Sensor node <br> 
-Testing of Machine Learning Accelerator <br> 
+Extreme Low-energy Testing of IoT node <br>
+Accuracy-aware testing of AI Accelerator <br> 
 Approximate and Application Specific Test <br>
 Hardware-software Co-verification <br>
 Post-silicon Debug and Diagnosis <br>
 Fault-tolerant and Reliable Design <br>
 Dependability in Reconfigurable Computing (FPGA) <br>
-Power/Energy Efficient Architecture <br>
+</td> 
 
+<td>
+<div class="vlh"></div>
+</td> 
+
+<td>
+ Reconfigurable AI Accelerator <br>
+ Approximate and LowEnergy Deep Neural Network<br>
+ AI Chip for TinyML <br> 
+ Hardware Architecture for GraphProcessing <br> 
+ AI Hardware-Software Co-design <br> 
+ CAD tools for AI Hardware <br> 
+ Brain-like Processor Design <br>
+ (Slow but Massive Accelerator) <br> 
+</td>
+</tr>
+</table>
+</div>
 </p>
 
 <h4>Ongoing Research:</h4>
