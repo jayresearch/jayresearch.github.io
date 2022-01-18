@@ -1,0 +1,390 @@
+<html>
+<head>
+<title> jayresearch </title>
+<link rel="stylesheet"
+href = "../mystyle.css"
+type = "text/css"
+/>
+
+</head>
+
+<body>
+
+<h2> Computer System Architecture (CS5202) </h2>
+<h3> Indian Institute of Technology Tirupati, India</h3>
+
+<hr>
+
+<p> This is a master level course on Computer Architecture. The objective is to study the architectural
+concepts and to understand some of the contemporary issues on architecture and micro-architecture. 
+The primary attention will be on the performance enhancement. The power and
+energy efficient architecture will also be discussed. <br> <br>
+ 
+Here is the course content: <a href="./cs5202_syllabus.pdf"> cs5202 content. </a> <br>
+
+Following would be the tentative lecture plan: <br>
+
+<hr align="left" width="50%">
+
+<table>
+
+<tr>
+<td valign="top"> Lecture 0 (Jan 18): </td> <td> Organisational meeting; <a href="./cs5202-plan-jan22.pdf"> Presentation, Handnotes </a><br>
+                           Additional material:
+                           <ul> 
+                               <li> Moore law: past, present and future, IEEE spectrum, June 1997.
+<a href="https://ieeexplore.ieee.org/document/591665" target="_blank"> IEEE Explorer </a></li>
+                               <li> Gordon Moore, Intel-Memories and the Mircoprocessor, MIT Press 1996.
+<a href="https://www.jstor.org/stable/20013439" target="_blank"> jstor link </a>  </li>
+                           </ul> 
+                               
+                      </td>
+</tr>
+
+<!--
+<tr>
+
+<td valign="top"> Lecture 1 (Jan 16): </td> <td> Performance modeling and measurement;  Presentation, Handnotes <br>
+                           Additional material:
+                            <ul>
+                             <li> Chapter 1, Computer Architecture: A Quantitative approach, 5th/6th Edition </li>
+                             <li> <a href="https://www.cis.upenn.edu/~milom/cis501-Fall12/lectures/04_performance.pdf"> Lecture notes of Prof Milo</a> </li>
+                            </ul>
+                      </td>
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 2 (Jan 21): </td> <td> Benchmark program and reporting/summarising performance; 
+<a href="./lecture2_performance.pdf"> Presentation, Handnotes </a> <br>
+     Additional material:
+          <ul>
+            <li> Chapter 1, Computer Architecture: A Quantitative approach, 5th/6th Edition </li>
+            <li> J.E. Smith, Characterizing Computer Performance with a Single Number, CACM Volume 31, Issue 10 (October 1988), pp.1202-1206  </li>
+            <li> <a href="https://www.cis.upenn.edu/~milom/cis501-Fall12/lectures/04_performance.pdf"> Lecture notes of Prof Milo</a> </li>
+         </ul>
+ </td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 3 (Jan 23): </td> 
+<td> Measuring and modeling the power and energy consumption; <br>
+     Additional material: 
+             <ul>
+              <li> Chapter 1, Computer Architecture: A Quantitative approach, 5th/6th Edition </li>
+              <li> <a href="./power-energy.pdf"> A note from Digital Integrated Circuit, Jan M Rabaey et al </a> </li> 
+             </ul>
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 4 (Feb 4): </td> <td> Memory system concept and design; <a href="lecture7_cache1.pdf"> Presentation </a> <br>
+                  Reading Materials: 
+                  <ul>
+                   <li>Chapter 5, Implementation Issues; Memory Systems: Cache, DRAM, Disk;
+<a href="https://user.eng.umd.edu/~blj/" target="_blank"> Bruce Jacob </a>. </li> 
+                   <li>This lecture has been merged with Memory System design</li>
+                  </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 5 (Feb 11): </td> <td> Instruction set principles <a href="lecture5_isa.pdf"> Presentation  </a> <br>
+                  Reading Materials:
+                  <ul>
+                   <li>Appendix A: Instruction Set Principles; 5th/6th Edition of Computer Architecture
+Quantitative Approach.</li>
+                  </ul>  
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> </td> <td> Practice problem sets:  <br> 
+                  From 2019 course: 
+                  <ul>
+                     <li>  Class Test:  <a href="class_test1.pdf">classtest </a> </li>
+                     <li>  Quiz 1 Test: <a href="quiz1_paper.pdf"> quiz1 </a> </li>
+                  </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 6 (Feb 13): </td> <td> Comparison of ISAs (RISC-V, X86, ARM) <a href="lecture6_risccisc.pdf"> Presentation </a> <br>
+                  Reading Materials: 
+                  <ul>
+                     <li> RISC-V: Appendix A and <a href="https://booksite.elsevier.com/9780123838728/references/appendix_k.pdf"> Appendix K </a> , Computer Architecture Quantitative Approach, 6th Edition. </li>
+                     <li> MIPS: Appendix A and <a href="https://booksite.elsevier.com/9780123838728/references/appendix_k.pdf"> Appendix K </a>, Computer Architecture Quantitative Approach, 5th Edition. </li>
+                     <li> (ARM64: Read from the ARM ISA manual (This will not be part of theory syllabus, this will be explored in Laboratory.)) </li>
+                     <li> X86_64: <a href="https://booksite.elsevier.com/9780123838728/references/appendix_k.pdf"> Appendix K </a>, Computer Architecture Quantitative Approach, 5th/6th Edition. </li>
+                  </ul>
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 7 (Feb 18): </td> <td> Cache Memory Architecture:  <a href="lecture7_cache1.pdf">Presentation </a> <a href="cache-memory1.pdf">Handwritten notes</a> <br>
+
+                  Reading Materials: 
+                  <ul>
+                      <li>Appendix B: Review of Memory Hierarchy, Hennessy and Patterson, Computer Architecture Quantitative Approach, 5th Edition  </li>
+                      <li>Chapter 5: Exploiting Memory Hierarchy, Patterson and Hennessy, Computer Organisation and Design, 5th Edition or ARM Edition </li>
+                  </ul>    
+</td>
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 8 (Feb 20) : </td> <td> Cache Memory Operations: Four Questions <a href="lecture8_cache2.pdf"> Presentation </a> <br>
+              Reading Materials: 
+               <ul> 
+                   <li> Appendix B: Review of Memory Hierarchy, Computer Architecture Quantitative Approach, 5th Edition.</li>  
+                   <li> Case study: AMD Opteron Data Cache </li>
+               </ul>
+
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 9 (Feb 27):</td> <td> Cache Memory Performance and Optimization <a
+href="cache_performance_opt1.pdf"> Handwritten Notes</a> | <a href="proset_cache_perf.pdf">Problem set 9.1</a><br> 
+
+        Reading Materials:
+        <ul>
+           <li> Appendix B: Review of Memory Hierarchy; Computer Architecture Quantitative Approach, 5th Edition.</li> 
+           <li> Chapter 2: Memory Hierarchy Design; Computer Architecture Quantitative Approach, 5th Edition: <a href="CAQA6e_ch2.pdf"> Presentation </a> </li>
+           <li> Aspect of Cache Memory and Instruction Buffer Performance, Mark D Hill, Technical Report, UC Berkeley <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/1987/CSD-87-381.pdf"> Link </a> </li>
+        </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 10 (March 12): </td> <td> Ten Advanced Cache Optimization Techniques <a href="lecture10_cache4.pdf"> Presentation  </a> <br>
+        Reading Materials: 
+         <ul>
+           <li> Chapter 2: Memory Hierarchy Design; Computer Architecture Quantitative Approach, 5th Edition </li>
+           <li> Lecture notes of Prof David Brooks could also be referred.</li>
+         </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 11 (Mar 17): </td> <td> Main Memory: Design and Architecture, <a href="dram_system_lecture11.pdf"> Presentation </a>  <br>
+
+           Reading Material: 
+           <ul>
+            <li> Bruce Jacob, Spencer Ng, and David Wang; Memory Systems: Cache, DRAM, Disk;
+2008, Elesevier. (Refer: Chapter 10 and Chapter 8) </li>
+
+            <li> Onur Mutlu, Scalable Memory System Lectures, Lecture 1, Lecture 2 and Lecture 3;
+                 <a href="http://users.ece.cmu.edu/~omutlu/acaces2013-memory.html"> Link </a> </li>
+
+            <li> Text Book (H&P): Memory Technology and Optimization, Chapter 2. </li>
+          </ul>
+</td> 
+</tr>
+-->
+
+
+<!--
+<tr>
+<td valign="top"> Lecture 12 (Mar 17): </td> <td> Virtual Memory System; <a href="virtual_memory_lecture12.pdf"> Presentation </a>  <br>
+          Reading Material:
+          <ul>
+           <li> Patterson and Henessay;
+Computer Organization and Design: Hardware/Software Interface, 5 th Edition
+(Refere Chapter 5, Section 5.7) </li> 
+     <li> Henessy and Patterson; Computer Architecture: Quantitative Approach,
+(Refer Chapter 2) </li>
+          </ul> 
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 12 (Mar 17): </td> <td> Home Task: Virtual memory case study: ARM and Intel <br> 
+                  Reading materials: 
+                          <ul>
+                            <li> ARM Cortex A8 Vs Intel Core i7: Memory Hierarchy from Text book. </li>
+                          </ul> 
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 13 (Mar 19): </td> <td> Instruction level parallelism: <a href="lecture13_pipeline2.pdf"> Presentation </a>   <br>
+                  Reading material:
+                          <ul> 
+                              <li> Preliminary on Pipeline architecture: <a href="lecture13_pipeline1.pdf"> Presentation </a> </li>
+                              <li>Appendix C: Henessy and Patterson, Computer Architecture Quantitative Approach </li>
+                              <li>Chapter 4: Patterson and Henessy, Computer Organisation and Design </a> </li>
+                              <li> N Jouppi and D Wall, Available Instruction Level Parallelism for
+Superscalar and Superpipeline Machines, WRL Research Report 89/7 </li>
+                          </ul>
+                          
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 14 (Mar 24): </td> <td> Superscalar architecture: Introduction <a href="lec14_superscalar_intro.pdf"> Presentation </a> <br>
+                  Reading materials: 
+                        <ul>
+                           <li> Chapter 4: Shen and Lipasti, Modern Processor Design </li> 
+                        </ul>
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Term projects (Mar 30): </td> <td> List of projects <a href="cs5202-project-description.pdf"> List </a> <br>
+                  Reading materials:
+                  <ul>
+
+                     <li> Shen and Lipasti, Modern processor design </li>
+                     <li> Henessy and Patterson, Computer Architecture: Quantitative Approach, 5th or 6th Edition </li>
+                     <li> Listed literaure </li>
+
+                  </ul> 
+</td>
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 15 (Mar 31): </td> <td> Issues in Superscalar architecture <a href="lec15_super-issues.pdf"> Presentation </a> <br> 
+                  Reading materials:
+                  <ul>
+
+                     <li>Chapter 5: Shen and Lipasti, Modern processor design: </li>
+                     <li>Chapter 3: Henessy and Patterson, Computer Architecture: Quantitative Approach, 5th or 6th Edition </li>
+
+                  </ul> 
+</td>
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 16 (Apr 2): </td> <td> Branch speculation and predictors <a href="lec16_super-branchpred.pdf"> Presentation </a> <br>
+    Reading materials:   
+      <ul>
+        <li> Advance branch prediction technique, Chapter 5, Shen and Lipasti </li>
+        <li> Reducing branch cost with advanced branch prediction, Chapter 3, Computer Architecture: Quantitative Approach </li>
+        <li> A PPM-like, tag-based branch predictor, Pierre Michaud, Journal of Instruction Level Parallelism, Vol 7, 2005 </li>
+      </ul>
+</td> 
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 17 (Apr 7): </td> <td> Scheduling and Memory Data flow  <a href="lec17_super-memdataflow.pdf"> Presentation </a> <br>
+    Reading materials:   
+      <ul>
+        <li> Superscalar Techniques, Chapter 5, Shen and Lipasti </li>
+        <li> Chapter 3, Henessy and Patterson, Computer Architecture </li>
+      </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Syllabus for End-term test: </td> <td> Test includes only Lecture 7 to Lecture 17: <a href="syllabus_endsem.pdf"> Syllabus </a> <br>
+    Reading materials: 
+      <ul>
+        <li> All the reading materials are listed in the document itself. </li>
+      </ul>
+</td> 
+</tr>
+
+<tr>
+<td valign="top"> Lecture 18 (Apr 9): </td> <td> Thread level parallelism Introduction <a href="lecture18_tlp.pdf"> Presentation </a> <br> 
+    Reading Materials:
+    <ul>
+        <li> Multithreading Architecture, Synthesis Lecture on Computer Architecture </li>
+        <li> Chapter 3, Henessy and Patterson, Computer Architecture </li>
+    </ul>
+</td>
+
+</tr>
+
+
+<tr>
+<td valign="top"> Lecture 19 (Apr 14): </td> <td> SMT-Simultaneous Multithreading <a href="lecture19_tlp.pdf"> Presentation </a> <br>
+    Reading Materials:
+    <ul>
+        <li> Multithreading Architecture, Synthesis Lecture on Computer Architecture </li>
+        <li> Chapter 3, Henessy and Patterson, Computer Architecture </li>
+    </ul>
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Lecture 20 (Apr 16): </td> <td> Research in Computer Architecture, Presentation will be uploaded next </td> 
+</tr>
+
+
+<tr>
+ <td valign="top"> End of class </td> <td> The course ends here, schedule for final test is based on the
+Covid situation! </td>
+</tr>
+
+<br>
+
+<tr>
+<td valign="top"> Lecture 21 (TBS): </td> <td> Multiprocessor: Shared memory architecture </td> <td> </td>
+</tr>
+<tr>
+<td valign="top"> Lecture 22 (TBS): </td> <td> Synchronization and Memory consistency  </td> <td> </td>
+</tr>
+<tr>
+<td valign="top"> Lecture 23 (TBS): </td> <td> Vector architecture </td> <td> </td>
+</tr>
+<tr>
+<td valign="top"> Lecture 24 (TBS): </td> <td> SIMD and Graphics processing unit </td> <td> </td>
+</tr>
+<tr>
+<td valign="top"> Lecture 25: </td> <td> Discussion 1: Project and problem set </td> <td> </td>
+</tr>
+<tr>
+<td valign="top"> Lecture 26: </td> <td> Discussion 2: Project and problem set </td> <td> </td>
+</tr>
+-->
+
+</table>
+
+<hr>
+
+<h3>Useful Resources</h3>
+
+
+<dl> 
+<dt> Wisconsin Computer Architecture Research </dt>
+        <dd> WWW Architecture Page: <a href="http://pages.cs.wisc.edu/~arch/www/"> Link </a> </dd>
+        <dd> People: Mark D Hill, Mikko Lipasti, Gurinder Sohi, James E Smith, Karu Shankara Lingam <a href="http://rsrch.cs.wisc.edu/arch/uwarch/"> Home page </a> </dd>
+
+<dt> Synthesis Lecture on Computer Architecture: </dt> 
+       <dd> Collection of lecture/research notes: <a href="https://www.morganclaypool.com/toc/cac/6/3"> Morgan Claypool </a> </dd>
+
+<dt> Books </dt>
+       <dd> Henessy and Patterson; Computer Architecture Quantitative Approach, 5th Edition<a href="https://booksite.elsevier.com/9780123838728/"> Elsevier</a> </dd>
+       <dd> Shen and Lipasti; Modern Processor Design: Fundamentals of Superscalar Processors, 1st Edition
+Waveland Press, or Tata McGrow Hill  </dd>
+       <dd> Culler, Singh and Gupta; Parallel Computer Architecture: HW/SW Approach, Elsevier</dd>
+
+<dt> Selected courses around the world: </dt>
+      <dd> Prof. David Brooks, Harvard <a href="http://www.eecs.harvard.edu/cs146-246/"> CS146/246 </a> </dd>
+
+      <dd> Dr. Arka Basu, IISc <a href="https://www.csa.iisc.ac.in/~arkapravab/courses/schedule.html"> E0-243 </a> </dd> 
+
+      <dd> Prof Onur Mutlu, CMU: <a href="https://safari.ethz.ch/architecture/fall2019/doku.php"> Course page</a> </dd>
+
+<dt>Computer Architecture Tools : </dt>
+      <dd> Simulators (listed by Prof Israel Koren): <a href="http://www.ecs.umass.edu/ece/koren/architecture"> List 1 </a> </dd>
+      <dd> Second List <a href="http://www.ecs.umass.edu/ece/koren/architecture/links.html" > List 2 </a> </dd>
+
+<dt> Conferences/Journals </dt>
+ 
+           <dd> MICRO, ISCA, HPCA, HiPC, ICCD, Architecture Letter, and few others. </dd>
+           <dd> Microsoft Academic: <a href="https://academic.microsoft.com/home"> Everything on Computer Science</a> </dd>
+           <dd> DBLP Bib <a href="https://dblp.uni-trier.de/"> Everything on Computer Science</a> </dd>         
+
+</dl>
+
+<hr>
+
+</body>
+</html> 
+
+
